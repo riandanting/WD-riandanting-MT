@@ -1,0 +1,563 @@
+.pill-nav a{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Copperplate", fantasy;
+    font-size: 18px;
+    border-radius: 200px;
+    color: black;
+    
+    transition: all .4s ease;
+
+}
+
+.pill-nav a:hover {
+    transform:translate(-0.3rem, -0.3rem);
+    background-color: #fdd300;
+    color: white;
+}
+
+.pill-nav a.active:hover {
+    background-color: #9e4fa2;
+    color: white;
+}
+
+.pill-nav {
+    text-align: right;
+    letter-spacing: 0.65px;
+    word-spacing: 10px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom right, #fff7ad, #ffa9f9);
+    background-position: 500%;
+    padding-top: 400px;
+    padding-bottom: 2600px;
+    margin-top: 0px;
+}
+
+.img {
+    position: absolute;
+    top: 48%;
+    right: -17%;
+    transform: translate(-50%, -50%);
+    height: 43rem;
+    width: 42rem;
+}
+
+.text-overlaycontainer {
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: #ffd200;
+    font-family: "Brush Script M7", cursive ;
+    font-size: 6rem;
+    font-weight: bolder;
+    text-shadow: 0rem 0rem 4rem #fdd300 ;
+    letter-spacing: -0.65rem;
+}
+    
+.text-overlaycontainertwo {
+    position: absolute;
+    top: 19%;
+    left: 22.3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Brush Script M7", cursive ;
+    font-size: 6rem;
+    font-weight: bolder;
+    text-shadow:#fdd300 ;
+    letter-spacing: -0.65rem;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 32%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family: "Papyrus", fantasy;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.01rem;
+}
+
+.text-overlay_a {
+    position: absolute;
+    top: 30.5%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family: "Copperplate", fantasy;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 0.12rem;
+}
+
+.text-overlay_aa {
+    position: absolute;
+    top: 33.5%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 0.002rem;
+}
+
+.text-overlayone {
+    position: absolute;
+    top: 42%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family: "Papyrus", fantasy;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.01rem;
+}
+
+.text-overlay_b {
+    position: absolute;
+    top: 40.5%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family: "Copperplate", fantasy;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 0.12rem;
+}
+
+.text-overlay_bb {
+    position: absolute;
+    top: 43.5%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 0.002rem;
+}
+
+.text-overlaytwo {
+    position: absolute;
+    top: 52%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family: "Papyrus", fantasy;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.01rem;
+}
+
+.text-overlay_c {
+    position: absolute;
+    top: 50.5%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family: "Copperplate", fantasy;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 0.12rem;
+}
+
+.text-overlay_cc {
+    position: absolute;
+    top: 53.5%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 0.002rem;
+}
+
+
+.text-overlaycon_a {
+    position: absolute;
+    top: 66%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: #ffd200;
+    font-family: "Brush Script M7", cursive ;
+    font-size: 6rem;
+    font-weight: bolder;
+    text-shadow: 0rem 0rem 4rem #fdd300 ;
+    letter-spacing: -0.65rem;
+}
+
+.text-overlaycon_2a {
+    position: absolute;
+    top: 65%;
+    left: 22.3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Brush Script M7", cursive ;
+    font-size: 6rem;
+    font-weight: bolder;
+    text-shadow:#fdd300 ;
+    letter-spacing: -0.65rem;
+}
+
+.text-overlaycon_b {
+    position: absolute;
+    top: 78.5%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family: "Papyrus", fantasy;
+    font-size: 2.75rem;
+    font-weight: bolder;
+    letter-spacing: 0.01rem;
+}
+
+.foreground_a {
+    position: absolute;
+    top: 78%;
+    left: 6rem;
+    width: 100px;
+    height: 100px;
+    transform: translate(50%, 50%);
+}
+
+.foreground_b {
+    position: absolute;
+    top: 78%;
+    left: 15rem;
+    width: 100px;
+    height: 100px;
+    transform: translate(50%, 50%);
+}
+
+.pill-btn_a {
+    position: absolute;
+    background-color:#611b64;
+    top: 79.5%;
+    left: 35%;
+    border: none;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.pill-btn_b {
+    position: absolute;
+    background-color:#611b64;
+    top: 85.5%;
+    left: 35%;
+    border: none;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 54px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.pill-btn_c {
+    position: absolute;
+    background-color:#611b64;
+    top: 91.5%;
+    left: 35%;
+    border: none;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.pill-btn_d {
+    position: absolute;
+    background-color:#611b64;
+    top: 97.5%;
+    left: 35%;
+    border: none;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 74px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.subh_a {
+    position: absolute;
+    top: 89.5%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    color: #ffd200;
+    font-family: "Brush Script M7", cursive ;
+    font-size: 4.5rem;
+    font-weight: bolder;
+    text-shadow: 0rem 0rem 4rem #fdd300 ;
+    letter-spacing: -0.65rem;
+}
+
+.subh_aa {
+    position: absolute;
+    top: 88.5%;
+    left: 58.3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Brush Script M7", cursive ;
+    font-size: 4.5rem;
+    font-weight: bolder;
+    text-shadow:#fdd300 ;
+    letter-spacing: -0.65rem;
+}
+
+.cnt_a {
+    position: absolute;
+    top: 100.5%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family: "Papyrus", fantasy;
+    font-size: 2.75rem;
+    font-weight: bolder;
+    letter-spacing: 0.01rem;
+}
+
+.cnt_aa {
+    position: absolute;
+    top: 105.25%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 0.002rem;
+}
+
+.cnt_b {
+    position: absolute;
+    top: 100.5%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family: "Papyrus", fantasy;
+    font-size: 2.75rem;
+    font-weight: bolder;
+    letter-spacing: 0.01rem;
+}
+
+.cnt_bb {
+    position: absolute;
+    top: 105.25%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: #611b64;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 0.002rem;
+}
+
+.subh_b {
+    position: absolute;
+    top: 89.5%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    color: #ffd200;
+    font-family: "Brush Script M7", cursive ;
+    font-size: 4.5rem;
+    font-weight: bolder;
+    text-shadow: 0rem 0rem 4rem #fdd300 ;
+    letter-spacing: -0.65rem;
+}
+
+.subh_bb {
+    position: absolute;
+    top: 88.5%;
+    left: 84.3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Brush Script M7", cursive ;
+    font-size: 4.5rem;
+    font-weight: bolder;
+    text-shadow:#fdd300 ;
+    letter-spacing: -0.65rem;
+}
+
+.pill-cnt_a {
+    position: absolute;
+    background-color:#611b64;
+    top: 100.5%;
+    left: 78.3%;
+    border: none;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 36px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.pill-cnt_b {
+    position: absolute;
+    background-color:#611b64;
+    top: 105.5%;
+    left: 78.3%;
+    border: none;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.pill-cnt_c {
+    position: absolute;
+    background-color:#611b64;
+    top: 100.5%;
+    left: 90.3%;
+    border: none;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.pill-cnt_d {
+    position: absolute;
+    background-color:#611b64;
+    top: 105.5%;
+    left: 90.3%;
+    border: none;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 44px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.pill-cnt_e {
+    position: absolute;
+    background-color:#611b64;
+    top: 110.5%;
+    left: 84.3%;
+    border: none;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 44px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.subh_c {
+    position: absolute;
+    top: 132.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffd200;
+    font-family: "Brush Script M7", cursive ;
+    font-size: 7.5rem;
+    font-weight: bolder;
+    text-shadow: 0rem 0rem 4rem #fdd300 ;
+    letter-spacing: -0.65rem;
+}
+
+.subh_cc {
+    position: absolute;
+    top: 131.5%;
+    left: 50.3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Brush Script M7", cursive ;
+    font-size: 7.5rem;
+    font-weight: bolder;
+    text-shadow:#fdd300 ;
+    letter-spacing: -0.65rem;
+}
+
+.sample_a {
+    position: absolute;
+    top: 125%;
+    left: -20rem;
+    width: 800px;
+    height: 500px;
+    transform: translate(50%, 50%);
+}
+
+.sample_b {
+    position: absolute;
+    top: 125%;
+    left: 38rem;
+    width: 800px;
+    height: 500px;
+    transform: translate(50%, 50%);
+}
+
+.sample_c {
+    position: absolute;
+    top: 183%;
+    left: 12rem;
+    width: 800px;
+    height: 500px;
+    transform: translate(50%, 50%);
+}
+
+.sample_d {
+    position: absolute;
+    top: 242%;
+    left: 12rem;
+    width: 800px;
+    height: 500px;
+    transform: translate(50%, 50%);
+}
