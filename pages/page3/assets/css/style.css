@@ -1,0 +1,48 @@
+.pill-nav a{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Copperplate", fantasy;
+    font-size: 18px;
+    border-radius: 200px;
+    color: black;
+    
+    transition: all .4s ease;
+
+}
+
+.pill-nav a:hover {
+    transform:translate(-0.3rem, -0.3rem);
+    background-color: #fdd300;
+    color: white;
+}
+
+.pill-nav a.active:hover {
+    background-color: #9e4fa2;
+    color: white;
+}
+
+.pill-nav {
+    text-align: right;
+    letter-spacing: 0.65px;
+    word-spacing: 10px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom right, #fff7ad, #ffa9f9);
+    background-position: 500%;
+    padding-top: 400px;
+    padding-bottom: 452px;
+}
+
+.cc {
+    position: absolute;
+    top: .5%;
+    left: 10rem;
+    width: 800px;
+    height: 500px;
+    transform: translate(50%, 50%);
+}
